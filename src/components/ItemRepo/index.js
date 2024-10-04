@@ -14,10 +14,10 @@ function ItemRepo({ repo, handleRemoveRepo }) {
       <a href={repo.html_url} rel="noreferrer" target="_blank">
         Ver repositório
       </a>
-      <br />
-      <a href="#" rel="noreferrer" className="remover">
+
+      <button rel="noreferrer" className="remover">
         Remover
-      </a>
+      </button>
       <hr />
     </ItemContainer>
   )
